@@ -1,0 +1,29 @@
+{
+  "name": "playwright-ai",
+  "version": "1.0.0",
+  "description": "AC-to-Playwright testing (MCP-assisted): plain-English acceptance criteria in /prompts, generated Playwright specs in /tests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huyho09/playwright-AI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/huyho09/playwright-AI/issues"
+  },
+  "homepage": "https://github.com/huyho09/playwright-AI#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "dotenv": "^17.4.2"
+  }
+}
